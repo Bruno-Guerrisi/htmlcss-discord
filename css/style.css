@@ -221,7 +221,6 @@ footer{
 }
 .language-share{
     width: 30%;
-    color
 }
 
 .foot-list{
@@ -272,4 +271,14 @@ footer{
 }
 .share i:hover{
     cursor: pointer;
+}
+
+/* sign-in footer */
+.sign-in{
+    margin-top: 10px;
+}
+
+.sign-in button{
+    float: right;
+    font-weight: bold;
 }
