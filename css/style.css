@@ -8,6 +8,9 @@
 .py-10{
     padding: 10px 0;
 }
+.mb-20{
+    margin-bottom: 20px;
+}
 
 .clearfix:after{
     content: '';
@@ -18,27 +21,53 @@
 .container{
     width: 80%;
     margin: auto;
+    padding: 120px 40px;
 }
 
+/* button and animation */
 button{
     padding: 10px 15px;
     border: 0 solid;
     border-radius: 50px;
-    font-weight: bold;
+}
+
+button:hover{
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.butt-white:hover{
+    color: rgb(66, 66, 255);
+}
+.butt-black:hover{
+    background-color: #3a4146;
+}
+
+/* setup text */
+h1{
+    font-size: 52px;
+}
+p{
+    line-height: 25px;
+    font-size: 19px;
 }
 
 
 /* HEADER */
 header{
-    background-color: #3161e0;
+    background-color: #255ee9;
     line-height: 35px;
 }
 
 .container-header{
+    width: 80%;
+    margin: auto;
     align-items: center;
 }
 
 /* NAVIGATION LIST */
+header ul{
+    padding: 5px;
+}
+
 header li{
     display: inline-block;
 }
@@ -64,6 +93,7 @@ header li a:hover{
 
 .brand{
     width: 20%;
+    padding: 5px;
 }
 
 .navigation{
@@ -79,4 +109,41 @@ header li a:hover{
 .enter-account button{
     background-color: white;
     color: black;
+    font-weight: bold;
+}
+
+
+/* MAIN */
+
+/* MAIN HEADER INTRO */
+.main-header{
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+    width: 100%;
+    color: white;
+}
+
+.text-intro{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+/* button main header intro */
+.text-intro > button:first-of-type{
+    margin-right: 10px;
+}
+.text-intro > button{
+    font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.downl-arrow{
+    margin-right: 5px;
+}
+
+.butt-black{
+    background-color: #23272a;
+    color: white;
 }
