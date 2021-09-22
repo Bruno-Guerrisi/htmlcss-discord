@@ -45,6 +45,9 @@ button:hover{
 h1{
     font-size: 52px;
 }
+h2{
+    font-size: 45px;
+}
 p{
     line-height: 25px;
     font-size: 19px;
@@ -146,4 +149,29 @@ header li a:hover{
 .butt-black{
     background-color: #23272a;
     color: white;
+}
+
+/* SECTION SETUP */
+.info-web-section .container div{
+    float: left;
+}
+
+.image-info{
+    width: 65%;
+}
+.image-info img{
+    max-width: 80%;
+}
+
+.text-info{
+    width: 35%;
+}
+
+/* SECTION TWO */
+.section-two-info{
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.section-two-info div img{
+    margin-left: 30px;
 }
