@@ -25,13 +25,13 @@
 }
 
 /* button and animation */
-button{
+.large-butt{
     padding: 10px 15px;
     border: 0 solid;
     border-radius: 50px;
 }
 
-button:hover{
+.large-butt:hover{
     box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.3);
     cursor: pointer;
 }
@@ -48,6 +48,9 @@ h1{
 }
 h2{
     font-size: 45px;
+}
+h3{
+    font-size: 37px;
 }
 p{
     line-height: 25px;
@@ -189,7 +192,6 @@ header li a:hover{
     background-position-y: top;
 }
 .download-app-desktop h3{
-    font-size: 37px;
     padding: 20px;
 }
 
@@ -203,3 +205,71 @@ header li a:hover{
     color: white;
 }
 /* FINE MAIN */
+
+/* INIZIO FOOTER */
+footer{
+    background-color: #23272a;
+}
+
+/* FLOAT SECTION */
+.info-website{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #748ce0;
+}
+.info-website .container-info-foot{
+    float: left;
+}
+.language-share{
+    width: 30%;
+    color
+}
+
+.foot-list{
+    width: calc(70% / 4);
+}
+
+.foot-list{
+    color: white;
+    
+}
+.foot-list ul{
+    list-style: none;
+}
+
+.foot-list ul li{
+    margin: 5px;
+}
+.foot-list ul li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.foot-list ul li:first-of-type{
+    color: #748ce0;
+    cursor: unset;
+    text-decoration: none;
+}
+
+/* language-share */
+.language-share h3{
+    color: #748ce0;
+}
+.language{
+    color: white;
+    background-color: unset;
+    border: 0;
+}
+.language:hover{
+    cursor: pointer;
+}
+
+.flag{
+    width: 20px;
+}
+
+.share i{
+    color: white;
+    margin-left: 3px;
+}
+.share i:hover{
+    cursor: pointer;
+}
