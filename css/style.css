@@ -2,4 +2,81 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.py-10{
+    padding: 10px 0;
+}
+
+.clearfix:after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+button{
+    padding: 10px 15px;
+    border: 0 solid;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+
+/* HEADER */
+header{
+    background-color: #3161e0;
+    line-height: 35px;
+}
+
+.container-header{
+    align-items: center;
+}
+
+/* NAVIGATION LIST */
+header li{
+    display: inline-block;
+}
+
+header li a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 17px;
+    font-weight: 600;
+}
+header li a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+/* FLOAT SECTION HEADER */
+.brand,
+.navigation,
+.enter-account{
+    float: left;
+}
+
+.brand{
+    width: 20%;
+}
+
+.navigation{
+    text-align: center;
+    width: 60%;
+}
+
+.enter-account{
+    width: 20%;
+    text-align: right;
+    padding: 5px;
+}
+.enter-account button{
+    background-color: white;
+    color: black;
 }
