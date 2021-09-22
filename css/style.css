@@ -33,6 +33,7 @@ button{
 
 button:hover{
     box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
 }
 .butt-white:hover{
     color: rgb(66, 66, 255);
@@ -54,7 +55,7 @@ p{
 }
 
 
-/* HEADER */
+/* INIZIO HEADER */
 header{
     background-color: #255ee9;
     line-height: 35px;
@@ -114,9 +115,9 @@ header li a:hover{
     color: black;
     font-weight: bold;
 }
+/* FINE HEADER */
 
-
-/* MAIN */
+/* INIZIO MAIN */
 
 /* MAIN HEADER INTRO */
 .main-header{
@@ -168,10 +169,37 @@ header li a:hover{
 }
 
 /* SECTION TWO */
-.section-two-info{
+.back-blurry{
     background-color: rgba(0, 0, 0, 0.05);
 }
 
 .section-two-info div img{
     margin-left: 30px;
 }
+
+/* SECTION DOWNLOAD */
+.section-download{
+    text-align: center;
+}
+
+.download-app-desktop{
+    background-image: url("../img/stars.svg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
+}
+.download-app-desktop h3{
+    font-size: 37px;
+    padding: 20px;
+}
+
+.butt-lightblue{
+    background-color: rgb(34, 34, 230);
+    color: white;
+    padding: 15px 20px;
+}
+.butt-lightblue:hover{
+    background-color: rgb(84, 84, 250);
+    color: white;
+}
+/* FINE MAIN */
