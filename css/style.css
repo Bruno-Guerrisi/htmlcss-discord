@@ -25,6 +25,13 @@
 }
 
 /* button and animation */
+.trans-back-col{
+transition: background-color 0.4s,
+            box-shadow 0.4s,
+            color 0.4s;
+}
+
+/* button*/
 .large-butt{
     padding: 10px 15px;
     border: 0 solid;
@@ -45,6 +52,8 @@
 /* setup text */
 h1{
     font-size: 52px;
+    font-family: 'Bowlby One SC', cursive;
+    text-transform: uppercase;
 }
 h2{
     font-size: 45px;
@@ -67,7 +76,6 @@ header{
 .container-header{
     width: 80%;
     margin: auto;
-    align-items: center;
 }
 
 /* NAVIGATION LIST */
@@ -101,6 +109,7 @@ header li a:hover{
 .brand{
     width: 20%;
     padding: 5px;
+    vertical-align: middle;
 }
 
 .navigation{
@@ -161,14 +170,14 @@ header li a:hover{
 }
 
 .image-info{
-    width: 65%;
+    max-width: 65%;
 }
 .image-info img{
     max-width: 80%;
 }
 
 .text-info{
-    width: 35%;
+    max-width: 35%;
 }
 
 /* SECTION TWO */
@@ -177,7 +186,7 @@ header li a:hover{
 }
 
 .section-two-info div img{
-    margin-left: 30px;
+    padding-left: 40px;
 }
 
 /* SECTION DOWNLOAD */
@@ -202,7 +211,6 @@ header li a:hover{
 }
 .butt-lightblue:hover{
     background-color: rgb(84, 84, 250);
-    color: white;
 }
 /* FINE MAIN */
 
@@ -225,12 +233,9 @@ footer{
 
 .foot-list{
     width: calc(70% / 4);
+    color: white;
 }
 
-.foot-list{
-    color: white;
-    
-}
 .foot-list ul{
     list-style: none;
 }
